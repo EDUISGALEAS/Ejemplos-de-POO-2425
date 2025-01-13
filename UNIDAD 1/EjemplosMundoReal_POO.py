@@ -17,7 +17,7 @@ mi_coche = Coche("NISSAN", "TIHIDA")
 #EJEMPLO DE CUENTA BANCARIA
 class CuentaBancaria:
     def __init__(self, saldo):
-        self.__saldo = saldo  # Atributo privado
+        self.__saldo = saldo
     def depositar(self, monto):
         self.__saldo += monto
     def obtener_saldo(self):
